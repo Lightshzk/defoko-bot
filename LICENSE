@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2024 Lightshzk
+Copyright (c) 2025 Lightshzk
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -19,27 +19,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-```
-
-4. **Commit:** `📄 Adiciona licença MIT`
-
----
-
-### 2️⃣ **CONFIGURAR "ABOUT" (Descrição do Repositório)**
-
-No topo da página do repositório:
-
-1. **Procure por "About"** (lado direito, acima da lista de arquivos)
-
-2. **Clique no ícone de engrenagem** ⚙️
-
-3. **Preencha:**
-
-   - **Description (Descrição):**
-```
-     🌸 Bot do WhatsApp da UTAU Defoko com IA, jogos e sistema de conquistas 💜
-```
-
-   - **Website:**
-```
-     https://github.com/Lightshzk/defoko-bot
