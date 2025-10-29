@@ -1,2 +1,3 @@
-# defoko-bot
-bot de whatsap da utau defoko
+<div align="center">
+🌸 Defoko-Bot 💜
+Bot do WhatsApp com personalidade kawaii baseado na UTAU Defoko
