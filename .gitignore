@@ -1,0 +1,48 @@
+# Dependências
+node_modules/
+package-lock.json
+
+# Sessão do WhatsApp (SENSÍVEL!)
+.wwebjs_auth/
+.wwebjs_cache/
+
+# Banco de Dados (PRIVADO!)
+defoko_db.json
+*.backup.json
+*.db
+
+# Variáveis de Ambiente
+.env
+.env.local
+
+# Logs
+*.log
+logs/
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+```
+
+4. **Commit changes:** `🔒 Adiciona .gitignore para proteger arquivos sensíveis`
+
+---
+
+## 🎯 ORDEM CORRETA:
+
+1. ✅ **Deletar** `defoko_db.json`
+2. ✅ **Criar** `.gitignore` 
+3. ✅ **Atualizar** `README.md` (use o novo que criei)
+4. ✅ **Adicionar** `LICENSE`
+
+---
+
+## 📸 VISUAL (onde clicar):
+
+Quando você abrir o arquivo `defoko_db.json` no GitHub, vai ver assim:
+```
+[Nome do arquivo]                    [✏️ Editar]  [⋯ Mais opções]  [🗑️ Deletar]
