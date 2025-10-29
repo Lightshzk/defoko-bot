@@ -61,3 +61,162 @@
 
 ### Passo a Passo
 ```bash
+# 1. Clone o repositório
+git clone https://github.com/Lightshzk/defoko-bot.git
+cd defoko-bot
+
+# 2. Instale as dependências
+npm install
+
+# 3. Configure seu número como admin
+# Edite o arquivo index.js na linha 12
+# admins: ['5511999999999@c.us'] 
+# Substitua pelo seu número no formato: 55 + DDD + número + @c.us
+
+# 4. Execute o bot
+npm start
+
+# 5. Escaneie o QR Code
+# Um QR Code aparecerá no terminal
+# Abra WhatsApp → Aparelhos Conectados → Escanear código
+```
+
+---
+
+## 📱 Comandos
+
+### 🌸 Menu Principal
+```
+!menu ou !defoko  → Abre o menu interativo
+```
+
+### 💬 Diversão
+```
+!piada            → Ouve uma piada fofa
+!quote            → Frase inspiradora
+!meme             → Meme de programador
+!curiosidade      → Fato interessante
+```
+
+### 🎮 Jogos
+```
+!dado             → Rolar um dado (1-6)
+!moeda            → Cara ou coroa
+!numsecreto       → Iniciar jogo de adivinhação
+!ranking          → Ver top 5 jogadores
+```
+
+### ⚙️ Configurações
+```
+!tema [claro/escuro]  → Mudar tema
+!nome [seu nome]      → Definir nome
+!perfil               → Ver perfil completo
+!conquistas           → Ver conquistas
+```
+
+### 🔐 Admin
+```
+!admin            → Painel administrativo
+!broadcast [msg]  → Enviar para todos
+!stats_global     → Estatísticas globais
+```
+
+---
+
+## 🏆 Sistema de Conquistas
+
+| Conquista | Descrição | Como Obter |
+|-----------|-----------|------------|
+| 🌸 Primeira Interação | Bem-vindo! | Use o bot pela primeira vez |
+| 😂 Comediante | Amante de piadas | Ouça 10 piadas |
+| 🎮 Gamer | Jogador dedicado | Jogue 5 vezes |
+| 💜 Fã da Defoko | Super fã! | Envie 50 mensagens |
+
+---
+
+## 🤖 Integração com IA
+
+O bot está preparado para integração com APIs de IA.
+
+### OpenAI (ChatGPT)
+```bash
+npm install openai
+```
+
+Configure a função `respostaIA()` no código e ative com `!toggleia`
+
+---
+
+## 🔧 Troubleshooting
+
+### ❌ Erro: "Session não encontrada"
+Delete a pasta `.wwebjs_auth` e escaneie novamente.
+
+### ❌ Bot desconecta sozinho
+Mantenha o terminal aberto ou use PM2:
+```bash
+npm install -g pm2
+pm2 start index.js --name defoko-bot
+```
+
+### ❌ Erro "Cannot find module"
+```bash
+npm install axios
+```
+
+---
+
+## 🤝 Como Contribuir
+
+1. Fork o projeto
+2. Crie uma branch (`git checkout -b feature/MinhaFeature`)
+3. Commit suas mudanças (`git commit -m 'Adiciona MinhaFeature'`)
+4. Push (`git push origin feature/MinhaFeature`)
+5. Abra um Pull Request
+
+---
+
+## 📄 Licença
+
+Este projeto está sob a licença MIT.
+
+---
+
+## 💜 Créditos
+
+- **Uta Utane (Defoko)** - Personagem base UTAU
+- **whatsapp-web.js** - Biblioteca WhatsApp
+- **Comunidade UTAU** - Inspiração
+
+---
+
+<div align="center">
+
+**Feito com 💜 e muito ☕**
+
+Se este projeto te ajudou, considere dar uma ⭐!
+
+[⭐ Star](https://github.com/Lightshzk/defoko-bot) • [🐛 Reportar Bug](https://github.com/Lightshzk/defoko-bot/issues) • [💡 Sugerir Feature](https://github.com/Lightshzk/defoko-bot/issues)
+
+</div>
+```
+
+---
+
+## 🎯 VISUAL DO PROCESSO:
+
+1. **Na página do README:**
+```
+   README.md    [👁️ View]  [✏️ Edit]  [⋯ More]
+```
+   ↓ Clique no **lápis** ✏️
+
+2. **No editor:**
+   - Apague tudo (Ctrl+A → Delete)
+   - Cole o novo README
+   - Role até o final
+
+3. **Commit:**
+```
+   Commit message: 📝 Atualiza README com documentação completa
+   [✅ Commit changes]
