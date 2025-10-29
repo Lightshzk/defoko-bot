@@ -1,0 +1,30 @@
+{
+  "name": "defoko",
+  "version": "2.0.0",
+  "description": "Bot WhatsApp com IA, jogos e sistema de conquistas",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "whatsapp",
+    "bot",
+    "defoko",
+    "utau"
+  ],
+  "author": "Light Dev",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.13.1",
+    "dotenv": "^16.0.3",
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.23.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
