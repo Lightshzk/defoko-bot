@@ -1,6 +1,8 @@
 <div align="center">
 
 # 🌸 Defoko-Bot 💜
+<img width="1116" height="1261" alt="image" src="https://github.com/user-attachments/assets/b80d006d-2d71-403b-a63c-098f6e486bca" />
+<img width="534" height="409" alt="image" src="https://github.com/user-attachments/assets/349e4bf1-34ad-41de-83d8-7dd4514ddf2d" />
 
 ### Bot do WhatsApp com personalidade kawaii baseado na UTAU Defoko
 
