@@ -1,0 +1,9 @@
+node_modules/
+.env
+*.log
+.DS_Store
+.vscode/
+auth/
+*.tmp
+.git/auth
+defoko_db.json.backup

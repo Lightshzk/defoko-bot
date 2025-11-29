@@ -1,0 +1,45 @@
+{
+  "bot": {
+    "nome": "Defoko-Bot",
+    "versao": "2.1",
+    "descricao": "Bot WhatsApp baseado na UTAUloide Defoko/Uta Utane",
+    "criador": "Lightshzk",
+    "tema": "UTAUloide - Fofa, Musical e Robótica"
+  },
+  "admin": {
+    "numeros": ["553598381353"],
+    "permissoes": ["broadcast", "admin_panel", "stats_global", "limpar_db"]
+  },
+  "bd": {
+    "arquivo": "./defoko_db.json",
+    "tipo": "JSON",
+    "backup_automatico": true
+  },
+  "comandos": {
+    "habilitados": {
+      "menu": true,
+      "jogos": true,
+      "musica": true,
+      "perfil": true,
+      "admin": true,
+      "temata_uta": true,
+      "karaoke": true,
+      "ia": false
+    },
+    "prefixo": "!"
+  },
+  "personagem": {
+    "nome": "Defoko",
+    "nome_alternativo": "Uta Utane",
+    "tipo": "UTAUloide",
+    "personalidade": ["Fofa", "Robótica", "Musical", "Amorosa", "Criativa"],
+    "idiomas": ["Português", "Japonês"]
+  },
+  "emojis_tematicos": {
+    "principal": "💜",
+    "secundario": "🌸",
+    "musica": "🎵",
+    "personagem": "🎤",
+    "robo": "🤖"
+  }
+}
